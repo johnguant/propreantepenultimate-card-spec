@@ -12,6 +12,6 @@ The game then starts on step 1. Unless explained otherwise, follow the steps in 
   5. The card's rank must be 10, it mustn't be the player's last card, and, if RM is true, the rank or suit of this card must match. The active player chooses to either increase or decrease MV by 1.
   6. The card must be a Jack and not the player's last card. Set CW to its inverse.
   7. The card must be an Ace, not the player's last card, and AV must be 0. The player selects a suit to which this card's suit changes.
-  8. AV must be 0, if the two topmost cards both have rank 6 this card's mustn't have rank 6, and, if RM is true, the rank or suit of this card must match except if this card is a Queen of Hearts, in which case it can be played on any King, or if it is a King of Hearts, in which case it can be played on any Queen. If a card with rank between 2 and 10 (inclusive) is played horizontally, it's rank is set to 11 minus the card's original rank.
+  8. AV must be 0, if the two topmost cards both have rank 6 this card's mustn't have rank 6, and, if RM is true, the rank or suit of this card must match except if this card is a Queen of Hearts, in which case it can be played on any King, or if it is a King of Hearts, in which case it can be played on any Queen.
 
 Any player that says “Last Card” must draw a card. A player can only play their last card if they said the name of this game before the previous active player finished their last turn.
